@@ -1,5 +1,7 @@
 # CMPUT 404 Lab 4 - Django
 
+Code for this lab was provided in the lab instruction https://uofa-cmput404.github.io/lab-4-django.html
+
 ## Question 1
 
 > What is the link to your Github?
@@ -49,4 +51,7 @@ It takes away the whole point of making a template which is for reusability with
 
 ## Question 8
 
+> What are the benefits of using Django's generic views over writing views 'the hard way'? When should you use a generic view and when shouldn't you use a generic view?
+
+It allows you to quickly and easily generate generic views without needing to write a lot of HTML. Generic views are not useful when you want a more personalized web page with more detail and information that you're looking display.
 
