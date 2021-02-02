@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+# Code for this lab was provided in the lab instruction https://uofa-cmput404.github.io/lab-4-django.html
+
 app_name = 'polls'
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
