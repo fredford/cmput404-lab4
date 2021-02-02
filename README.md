@@ -33,3 +33,20 @@ A `Recent Actions` section of recent actions taken by super users. An `Authentic
 Custom models can be added to the admin page by registering them in the `admin.py` file.
 
 ## Question 6
+
+> What do you see what you /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? What happens when you don’t put a number, and instead use a string? How would you modify the urls.py file to allow arbitrary alphabetic characters?
+
+- In the `/polls/38/` section it displays the readout: `You're looking at a question 38`.
+- In the `/polls/38/results` section it displays the readout: `You're looking at the results of question 38`.
+- In the `/polls/38/vote` section it displays the readout: `You're voting on question 38.`
+- Changing the `path` from `<int:question_id>` to `<str:question_id>`.
+
+## Question 7
+
+> Why is it a bad idea to hardcode urls into the templates?
+
+It takes away the whole point of making a template which is for reusability with a wide variety of url potentials.
+
+## Question 8
+
+
